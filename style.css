@@ -1,0 +1,64 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #777;
+  border-top: 7px solid #F36B2E;
+  max-width: 360px;
+}
+
+div.avocado {
+  text-align: center;
+  margin-top: -27px;
+  color: #5d7404;
+  cursor: pointer;
+}
+
+hr {
+  border-top: 1px solid #5d7404;
+}
+
+div.avocado span {
+  background: white;
+  padding: 15px;
+}
+
+svg {
+  width: 40px;
+  margin-bottom: -17px;
+}
+
+svg g {
+  fill: #5d7404;
+}
+
+div#narrative-wrapper {
+  margin-top: 25px;
+}
+
+span#date {
+  font-weight:bold;
+}
+
+span#narrative {
+  font-style: italic;
+}
+
+.small {
+  font-size: 0.7em;
+}
+
+a:link,
+a:visited {
+  color: #F36B2E;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
