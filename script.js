@@ -37,6 +37,7 @@
         var new_report = getRandomReport();
         date.innerHTML = new_report.d;
         narrative.innerHTML = new_report.n;
+        pymChild.sendHeight();
 
         setInterval(function() {
           var new_report = getRandomReport();
